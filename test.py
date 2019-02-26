@@ -12,12 +12,11 @@ def add(sum, numbers):
 
 def arithmetic_boggle(magic_number, numbers):
     sum = add(0, numbers)
-    print(sum, magic_number);
+    print(sum, magic_number)
     return(sum == magic_number)
 
-print(arithmetic_boggle(6, [1,2,3]));
-
-print(arithmetic_boggle(0, []));
-print(arithmetic_boggle(43, []));
-print(arithmetic_boggle(42, [42]));
-print(arithmetic_boggle(0, [99]));
+# print(arithmetic_boggle(0, []));
+# print(arithmetic_boggle(43, []));
+# print(arithmetic_boggle(42, [42]));
+# print(arithmetic_boggle(0, [99]));
+# print(arithmetic_boggle(6, [1,2,3]));
